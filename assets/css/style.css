@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Playwrite+VN+Guides&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kantumruy Pro", sans-serif;
+  background-color: #dae3e7;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: #fff;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile .profile-img {
+  width: 130px;
+}
+
+.profile .profile-img img {
+  width: 100%;
+}
+
+.profile .profile-content {
+  line-height: 30px;
+}
+
+/*  */
+
+.header-content .info .form-check {
+  margin-bottom: 10px;
+}
+
+.header-content .info .btn-infor {
+  color: #fff;
+}
+
+.header-content .info .btn-infor i {
+  margin-right: 10px;
+}
+
+/* main */
+main {
+  padding: 1rem;
+}
+
+.about-me {
+  padding: 15px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.about-me .title {
+  margin-bottom: 15px;
+}
+
+.project {
+  padding: 15px 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.project .proj-top .title {
+  margin-bottom: 1.4rem;
+}
+.project .proj-top img {
+  margin-bottom: 1.4rem;
+}
+
+.project .proj-top .sub-title {
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+/* proj-bottom */
+
+.proj-bottom .cards {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.proj-bottom .cards .card-img img {
+  width: 100%;
+}
+
+.proj-bottom .cards .card-img {
+  width: 30%;
+}
+
+.proj-bottom .cards .card-content {
+  width: 70%;
+  margin-left: 1rem;
+}
+
+.proj-bottom .cards .card-content .card-title {
+  color: #6d6d6d;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
