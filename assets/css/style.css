@@ -92,11 +92,13 @@ main {
   border-radius: 5px;
 }
 
-.project .proj-top .title {
-  margin-bottom: 1.4rem;
+.project .proj-top {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
 }
+
 .project .proj-top img {
-  margin-bottom: 1.4rem;
+  margin: 1rem 0;
 }
 
 .project .proj-top .sub-title {
@@ -104,6 +106,16 @@ main {
   margin-bottom: 1.4rem;
 }
 
+.project .proj-top .btn{
+  display: block;
+  margin: 1.5rem auto 2rem auto;
+  background-color: teal;
+}
+
+.project .proj-top .btn a{
+  color: #fff;
+  text-decoration: none;
+}
 /* proj-bottom */
 
 .proj-bottom .cards {
@@ -114,6 +126,7 @@ main {
 
 .proj-bottom .cards .card-img img {
   width: 100%;
+  height: 100%;
 }
 
 .proj-bottom .cards .card-img {
@@ -130,4 +143,13 @@ main {
   font-weight: 500;
   font-size: 1.1rem;
   margin-bottom: 10px;
+}
+
+.proj-bottom .cards .card-content .card-text{
+  font-size: 15px;
+}
+
+.proj-bottom .cards .card-content .card-link{
+  color: rgb(64, 193, 0);
+  font-size: 10px;
 }
